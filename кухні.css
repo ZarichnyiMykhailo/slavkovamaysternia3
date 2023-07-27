@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600;700&family=Open+Sans:ital,wght@0,800;1,700&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Mukta:wght@600;700&family=Open+Sans:ital,wght@0,800;1,700&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Cuprum:wght@700&family=Hind:wght@700&family=Mukta:wght@600;700&family=Open+Sans:ital,wght@0,800;1,700&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Bungee+Shade&family=Comfortaa:wght@700&family=Cuprum:wght@700&family=Hind:wght@700&family=Kalam:wght@700&family=Mukta:wght@600;700&family=Open+Sans:ital,wght@0,800;1,700&family=Roboto:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    font-size: 90px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 2px 1px 2px rgb(0, 0, 0);
+        /* background-color: rgb(126, 201, 112); */
+        background: url(../Каталог/Кухні/blacktree2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        /* background-size: 200px; */
+        padding: 1%;
+        border: 10px solid rgb(206, 205, 135);
+}
+header {
+    background-color: black;
+}
+
+.menu * {
+    margin: 0;
+    padding: 0%;
+}
+
+.menu ul,
+.menu li {
+    list-style: none;
+}
+
+.menu>ul {
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid #c7c8ca;
+}
+
+.menu>ul li a {
+
+    display: block;
+    padding: 7px 30px 7px 40px;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    transition: all 0.3s ease;
+}
+
+.menu>ul li>a i.fa {
+    position: relative;
+    right: 15px;
+
+}
+
+.menu li a:hover {
+    background: rgb(206, 205, 135);
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+.menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.menu li>ul li {
+    border: 1px solid #c7c8ca;
+}
+
+.menu li>ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: black;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+.kitchen {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+    
